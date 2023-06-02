@@ -1,0 +1,40 @@
+/*
+===============
+RESET CSS
+===============
+*/
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+/*
+======X=========
+RESET CSS
+======X=========
+*/
+.NavigationBar{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    font-family: Roboto;
+}
+.sliderText{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Darker Grotesque" , ​​Times, serif;
+    margin-left: 25vw;
+    margin-top: 80px;
+}
